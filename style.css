@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-bar{
+    height: 60px;
+    background-color: hotpink;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    background-color: aliceblue;
+    height: 70px;
+    justify-content: space-between;
+    padding: 15px;
+    & .menu {
+        display: flex;
+        & li {
+            margin: 0 1rem;
+            font-size: 20px;
+            color: black;
+        }
+    }
+}
